@@ -19,14 +19,14 @@ Modelimi ilk olarak filtre uygulanmamış görüntüler ile eğittim ve doğrulu
 
 50 epoch ve 32 batch size kullanarak eğittiğim üç modelin karmaşıklık matrisleri ve doğruluk oranları aşağıdaki gibidir:
 
-   Filtre uygulanmamış görseller ile oluşturulan model
+   Filtre uygulanmamış görseller ile oluşturulan model (Test accuracy: 0.9779)
    
    ![Original](https://github.com/harunrk/mstar_classifier/blob/main/original%20conf.png)
 
-   Median+Keskinleştirme filtresi uygulanmış görseller ile oluşturulan model
+   Median+Keskinleştirme filtresi uygulanmış görseller ile oluşturulan model (Test accuracy: 0.9867)
    
    ![Median](https://github.com/harunrk/mstar_classifier/blob/main/sMedian_conf.png)
 
-   BM3D+Keskinleştirme filtresi uygulanmış görseller ile oluşturulan model
+   BM3D+Keskinleştirme filtresi uygulanmış görseller ile oluşturulan model (Test accuracy: 0.9889)
    
-   ![BM3D](https://github.com/harunrk/mstar_classifier/blob/main/sBM3D_data_model.ipynb)
+   ![BM3D](https://github.com/harunrk/mstar_classifier/blob/main/sharpened_bm3d_conf.png)
