@@ -30,3 +30,7 @@ Modelimi ilk olarak filtre uygulanmamış görüntüler ile eğittim ve doğrulu
    BM3D+Keskinleştirme filtresi uygulanmış görseller ile oluşturulan model (Test accuracy: 0.9889)
    
    ![BM3D](https://github.com/harunrk/mstar_classifier/blob/main/sharpened_bm3d_conf.png)
+
+
+## NOT
+Model eğitilirken sürecin daha hızlı ilerleyebilmesi için label encoder işlemi uygulandı dolayısıyla 0: 2S1, 1: BTR_60, 2: T62 ve 3: ZIL131 sınıflarını temsil etmektedir
